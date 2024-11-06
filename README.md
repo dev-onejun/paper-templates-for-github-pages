@@ -1,6 +1,6 @@
 ---
 two-columns: true
-paper-title: "<h1>Approximation of Computational Cost: A Review of Algorithm Design and Analysis</h1>"
+paper-title: "Approximation of Computational Cost: A Review of Algorithm Design and Analysis"
 author: '
     $$
     \mathbf{\text{Wonjun Park}} \\

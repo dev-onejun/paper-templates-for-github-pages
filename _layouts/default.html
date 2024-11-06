@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.paper-title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
     {% include mathjax_support.html %}
@@ -14,11 +14,11 @@
         {% if page.site-title %}
           <h1>{{ site.title }}</h1>
         {% endif %}
-
-        {% include header.html %}
       </header>
 
       <main>
+        {% include main.html %}
+
         {% if page.two-columns %}
           <div class="multi-column-content" style="column-count: 2; column-gap: 40px; column-rule: 1px solid #ccc; max-width: 1000px; margin: 0 auto; padding: 20px;">
             {{ content }}
