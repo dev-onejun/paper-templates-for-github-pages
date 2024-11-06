@@ -1,18 +1,29 @@
-<h1>{{ page.title }}</h1>
+{% if page.paper-title %}
+    {{ page.paper-title }}
+{% endif %}
 
-$$
-\mathbf{\text{Wonjun Park}} \\
-\text{Computer Science} \\
-\text{University of Texas at Arlington} \\
-\text{Arlington, TX, United States}
-$$
+{% if page.author %}
+    {{ page.author }}
+{% else %}
+    $$
+    \mathbf{\text{Wonjun Park}} \\
+    \text{Computer Science} \\
+    \text{University of Texas at Arlington} \\
+    \text{Arlington, TX, USA} \\
+    \text{wxp7177@mavs.uta.edu} \\
+    $$
+{% endif %}
 
-<h5><i>Abstract</i></h5>
+{% if page.abstract %}
+    <h5><i>Abstract</i></h5>
+    {{ page.abstract }}
+{% endif %}
 
-{{ page.abstract }}
+{% if page.acronym_and_abbreviation %}
+    {{ page.acronym_and_abbreviation }}
+{% endif %}
 
-{{ page.acronym_and_abbreviation }}
-
-<h5>Keywords</h5>
-
-{{ page.keywords }}
+{% if page.keywords %}
+    <h5>Keywords</h5>
+    {{ page.keywords }}
+{% endif %}
