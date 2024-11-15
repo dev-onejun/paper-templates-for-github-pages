@@ -1,0 +1,12 @@
+.multi-columns-content {
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #ccc;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.single-column-content {
+	padding: 20px 0;
+}
