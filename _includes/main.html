@@ -4,18 +4,10 @@
 
 {% if page.author %}
     {{ page.author }}
-{% else %}
-    $$
-    \mathbf{\text{Wonjun Park}} \\
-    \text{Computer Science} \\
-    \text{University of Texas at Arlington} \\
-    \text{Arlington, TX, USA} \\
-    \text{wxp7177@mavs.uta.edu} \\
-    $$
 {% endif %}
 
 {% if page.abstract %}
-    <h5><i>Abstract</i></h5>
+    <b><i>Abstract</i></b> <br/>
     {{ page.abstract }}
 {% endif %}
 
@@ -24,6 +16,6 @@
 {% endif %}
 
 {% if page.keywords %}
-    <h5>Keywords</h5>
+    <b>Keywords</b> <br/>
     {{ page.keywords }}
 {% endif %}
