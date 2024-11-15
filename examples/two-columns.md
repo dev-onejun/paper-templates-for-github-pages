@@ -2,15 +2,15 @@
 two-columns: true
 paper-title: "Approximation of Computational Cost: A Review of Algorithm Design and Analysis"
 author: '
-    $$
-    \mathbf{\text{Wonjun Park}} \\
-    \text{Computer Science} \\
-    \text{University of Texas at Arlington} \\
-    \text{Arlington, TX, USA} \\
-    \text{wxp7177@mavs.uta.edu} \\
-    $$
+$$
+\mathbf{\text{Wonjun Park}} \\
+\text{Computer Science} \\
+\text{University of Texas at Arlington} \\
+\text{Arlington, TX, USA} \\
+\text{wxp7177@mavs.uta.edu} \\
+$$
 '
-abstract: ""
+abstract: "This is a sample abstract"
 acronym_and_abbreviation: '
 $$
 \mathbf{\text{Acronym and Abbreviation}} \\
