@@ -6,21 +6,23 @@ Writing is important to proceed with a project as a way to communicate with stak
 
 * Chrome shows the papers well
 
-### Publish
-
 **0.** Click `use this template` button near the star button
 
-**1.** Write papers in markdown format
+**1.** Change `baseurl` in a `_configy.yml` file as your repository
 
-**2.** Push to your published repository branch
+**2.** Write papers in markdown format
 
-### Local
+**3.** Push to your published repository branch
+
+### Local (Options)
 
 **0.** Install Jekyll (Ruby, RubyGems, GCC, Make, Bundler are also required)
 
 * Referenced the installation guide of jekyll [here](https://jekyllrb.com/docs/installation/#requirements)
 
-**1.** Use the following commands to run the server
+**1.** Clone your repository (after clicking the `use this template` button)
+
+**2.** Use the following commands to run the server
 
 ``` bash
 $ bundle install
