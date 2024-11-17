@@ -30,6 +30,7 @@ $$
 keywords: '
 <b>Minimum Spanning Tree</b>: A tree that connects all the vertices in a graph with the minimum possible total edge weight. The tree has $n-1$ edges where $n$ is the number of vertices in the graph.
 '
+etc: ""
 ---
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Bibendum ad ligula nisi fringilla taciti malesuada. Ridiculus vestibulum non vulputate ipsum ultrices turpis senectus. Magna auctor ultricies ante habitant scelerisque dolor. Tristique iaculis egestas ornare; vel in dis. Dictum justo scelerisque cras diam fusce mauris tincidunt fermentum. Vivamus venenatis eros ad ipsum ut erat. Fames tempor dis luctus, nec inceptos amet.
