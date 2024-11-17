@@ -32,4 +32,4 @@ $ bundle exec jekyll serve
 + [two columns](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/two-columns.html)
 + [one column](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/one-column.html)
 
-- [real usage](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/usage.html)
+- [real usage](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/usage.pdf)
