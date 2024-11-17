@@ -1,35 +1,35 @@
----
-two-columns: true
-paper-title: "Approximation of Computational Cost: A Review of Algorithm Design and Analysis"
-author: '
-    $$
-    \mathbf{\text{Wonjun Park}} \\
-    \text{Computer Science} \\
-    \text{University of Texas at Arlington} \\
-    \text{Arlington, TX, USA} \\
-    \text{wxp7177@mavs.uta.edu} \\
-    $$
-'
-abstract: ""
-acronym_and_abbreviation: '
-$$
-\mathbf{\text{Acronym and Abbreviation}} \\
-\begin{array}{|c|c|}
-\hline
-\text{Binary Search Tree (BST)} & \text{Minimum Spanning Tree (MST)} \\
-\hline
-\text{Single Source Single Destination (SSSD)} & \text{Single Source Multiple Destination (SSMD)} \\
-\hline
-\text{Multiple Source Single Destination (MSSD)} & \text{Multiple Source Multiple Destination (MSMD)} \\
-\hline
-\text{} & \text{} \\
-\hline
-\end{array}
-$$
-'
-keywords: '
-<b>Minimum Spanning Tree</b>: A tree that connects all the vertices in a graph with the minimum possible total edge weight. The tree has $n-1$ edges where $n$ is the number of vertices in the graph.
-'
----
+# Paper Templates for GitHub Pages
 
-This is a sample article.
+Writing is important to proceed with a project as a way to communicate with stakeholders and record the progress. It is so clear that IT projects are especially underlined to be documented well. Many document management applications like Notion, Obsidian, and Evernote allow writers to easily share their notes with others. However, a platform where programmers take time and manage code is GitHub or GitLab which they inevitably utilize. This repository is a template repository for writing papers in markdown format and publishing them on GitHub Pages, which is a free static site hosting service provided by GitHub. The template expects that writers can focus on writing papers in a professional format without considering the design and layout of the paper due to the simple and easy-to-use markdown format.
+
+## Usages
+
+* Chrome shows the papers well
+
+### Publish
+
+**0.** Click `use this template` button near the star button
+
+**1.** Write papers in markdown format
+
+**2.** Push to your published repository branch
+
+### Local
+
+**0.** Install Jekyll (Ruby, RubyGems, GCC, Make, Bundler are also required)
+
+* Referenced the installation guide of jekyll [here](https://jekyllrb.com/docs/installation/#requirements)
+
+**1.** Use the following commands to run the server
+
+``` bash
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+## Examples
+
++ [two columns](./examples/two-columns.html)
++ [one column](./examples/one-column.html)
+
+- [real usage](./examples/usage.html)
