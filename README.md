@@ -2,9 +2,19 @@
 
 Writing is important to proceed with a project as a way to communicate with stakeholders and record the progress. It is so clear that IT projects are especially underlined to be documented well. Many document management applications like Notion, Obsidian, and Evernote allow writers to easily share their notes with others. However, a platform where programmers take time and manage code is GitHub or GitLab which they inevitably utilize. This repository is a template repository for writing papers in markdown format and publishing them on GitHub Pages, which is a free static site hosting service provided by GitHub. The template expects that writers can focus on writing papers in a professional format without considering the design and layout of the paper due to the simple and easy-to-use markdown format.
 
+## Examples
+
+| ![image](https://github.com/user-attachments/assets/f3ecdd6d-9a3e-4cd7-a2ff-60208eed9f53) | ![image](https://github.com/user-attachments/assets/89b92fdc-7b58-4919-97a5-0d58843557f9) |
+|:--:|:--:|
+|[two columns](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/two-columns.html)|[one column](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/one-column.html)|
+
+| ![image](https://github.com/user-attachments/assets/dea57829-4d66-485a-bec0-6b09dcf400b4) |
+|:--:|
+|[usage case](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/usage.pdf)|
+
 ## Usages
 
-* Chrome shows the papers well
+* Recommend to use Chrome to see the paper
 
 **0.** Click `use this template` button near the star button
 
@@ -28,10 +38,3 @@ Writing is important to proceed with a project as a way to communicate with stak
 $ bundle install
 $ bundle exec jekyll serve
 ```
-
-## Examples
-
-+ [two columns](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/two-columns.html)
-+ [one column](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/one-column.html)
-
-- [real usage](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/usage.pdf)
