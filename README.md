@@ -9,13 +9,17 @@ Writing is important to proceed with a project as a way to communicate with stak
 
 ## Examples
 
+* Usages
+
+| ![image](https://github.com/user-attachments/assets/dea57829-4d66-485a-bec0-6b09dcf400b4) | ![image](https://github.com/user-attachments/assets/d73d6ca0-10f5-4d2b-8041-3d758e219590) |
+|:--:|:--:|
+|[homework](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/homework.pdf)|[resume/cv](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/resume.pdf)|
+
+* Templates
+
 | ![image](https://github.com/user-attachments/assets/f3ecdd6d-9a3e-4cd7-a2ff-60208eed9f53) | ![image](https://github.com/user-attachments/assets/89b92fdc-7b58-4919-97a5-0d58843557f9) |
 |:--:|:--:|
 |[two columns](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/two-columns.html)|[one column](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/one-column.html)|
-
-| ![image](https://github.com/user-attachments/assets/dea57829-4d66-485a-bec0-6b09dcf400b4) | ![image]() |
-|:--:|:--:|
-|[homework](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/homework.pdf)|[resume/cv](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/resume-cv.pdf)|
 
 ## Usages
 
