@@ -1,5 +1,10 @@
 # Paper Templates for GitHub Pages
 
+* Publish your paper easily on online
+* Write your paper in markdown which is a simple and easy-to-use format with professional templates
+* Manage your paper with your source code in a repository
+* Track your writings with Git version control
+
 Writing is important to proceed with a project as a way to communicate with stakeholders and record the progress. It is so clear that IT projects are especially underlined to be documented well. Many document management applications like Notion, Obsidian, and Evernote allow writers to easily share their notes with others. However, a platform where programmers take time and manage code is GitHub or GitLab which they inevitably utilize. This repository is a template repository for writing papers in markdown format and publishing them on GitHub Pages, which is a free static site hosting service provided by GitHub. The template expects that writers can focus on writing papers in a professional format without considering the design and layout of the paper due to the simple and easy-to-use markdown format.
 
 ## Examples
@@ -8,9 +13,9 @@ Writing is important to proceed with a project as a way to communicate with stak
 |:--:|:--:|
 |[two columns](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/two-columns.html)|[one column](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/one-column.html)|
 
-| ![image](https://github.com/user-attachments/assets/dea57829-4d66-485a-bec0-6b09dcf400b4) |
-|:--:|
-|[usage case](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/usage.pdf)|
+| ![image](https://github.com/user-attachments/assets/dea57829-4d66-485a-bec0-6b09dcf400b4) | ![image]() |
+|:--:|:--:|
+|[homework](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/homework.pdf)|[resume/cv](https://dev-onejun.github.io/paper-templates-for-github-pages/examples/resume-cv.pdf)|
 
 ## Usages
 
@@ -18,7 +23,7 @@ Writing is important to proceed with a project as a way to communicate with stak
 
 **0.** Click `use this template` button near the star button
 
-**1.** Change `baseurl` in a `_configy.yml` file as your repository
+**1.** Change `baseurl` in a `_config.yml` file as your repository
 
 **2.** Write papers in markdown format
 
