@@ -18,7 +18,7 @@ Writing is important to proceed with a project as a way to communicate with stak
 
 **0.** Click `use this template` button near the star button
 
-**1.** Change `baseurl` in a `_configy.yml` file as your repository
+**1.** Change `baseurl` in a `_config.yml` file as your repository
 
 **2.** Write papers in markdown format
 
