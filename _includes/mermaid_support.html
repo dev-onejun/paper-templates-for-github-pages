@@ -1,0 +1,25 @@
+<!-- Load Mermaid.js from a CDN -->
+<script src="https://unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+
+<!-- Initialize Mermaid when the page loads -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Select all code blocks with 'language-mermaid'
+    document.querySelectorAll('pre code.language-mermaid').forEach(function(codeBlock) {
+        // Extract the mermaid code
+        const mermaidCode = codeBlock.textContent.trim();
+
+        // Create a new div with class 'mermaid'
+        const mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = mermaidCode;
+
+        // Replace the parent <pre> block with our new mermaid div
+        const pre = codeBlock.parentNode;
+        pre.parentNode.replaceChild(mermaidDiv, pre);
+    });
+
+    // Now initialize Mermaid
+    mermaid.initialize({ startOnLoad: true });
+});
+</script>
